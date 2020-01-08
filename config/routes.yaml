@@ -1,3 +1,26 @@
 #index:
 #    path: /
 #    controller: App\Controller\DefaultController::index
+app:   
+  path: /accueil
+  controller: App\Controller\AccueilController:index
+
+blagues:
+  path: /blagues
+  controller: App\Controller\BlaguesController:index
+
+Apropos:
+  path: /Apropos
+  controller: App\Controller\AproposController:index
+
+Equipe:
+  path: /Equipe
+  controller: App\Controller\EquipeController:index  
+
+Seconnecter:
+  path: /Seconnecter
+  controller: App\Controller\SeconnecterController:index    
+
+Panier:
+  path: /Panier
+  controller: App\Controller\PanierController:index    
